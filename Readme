@@ -1,0 +1,9 @@
+# Features
+-Open Source Project
+-Compiled
+-Designed for Performance and Reliablity
+-Performance similar to C++
+-statically typed -> data type must be know at compile
+-Strongly typed -> conversion between types are controlled
+-Different Memory Memory using Ownership -> Memory Safe (Learning Curve new paradigm)
+
