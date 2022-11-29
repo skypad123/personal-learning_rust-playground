@@ -81,7 +81,7 @@ fn roster_challenge(){
     let name = env::args().nth(2).unwrap();
 
     let content = fs::read_to_string(path).unwrap();
-    for list_name in content.lines(){ 
+    for list_name in content.lines(){
         if list_name == name{
             println!("name is in file!");
             return
