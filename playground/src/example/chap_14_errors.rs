@@ -89,12 +89,12 @@ fn higher_lower_challenge(){
 
         let guess = match io::stdin().read_line(&mut buffer){
             Ok(_) => match buffer.trim().parse::<u32>() {
-                    Ok(s) => s,
-                    Err(_) => {
-                        println!("answer returned has some input problem! try again!");
-                        continue
-                    }
-                },
+                Ok(s) => s,
+                Err(_) => {
+                    println!("answer returned has some input problem! try again!");
+                    continue
+                }
+            },
             Err(_) => {
                 println!("answer returned has some parsing problem! try again!");
                 continue
